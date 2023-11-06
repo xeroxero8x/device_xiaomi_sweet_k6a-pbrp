@@ -108,5 +108,12 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone18/temp
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 BOARD_USES_METADATA_PARTITION := true
 
+#PBRP Specific Flags
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+MAINTAINER := '008 @xeroxero8'
+
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
