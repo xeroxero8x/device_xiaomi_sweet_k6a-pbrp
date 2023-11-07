@@ -28,7 +28,7 @@ $(call inherit-product, device/xiaomi/sweet_k6a/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sweet_k6a
-PRODUCT_NAME := omni_sweet_k6a
+PRODUCT_NAME := twrp_sweet_k6a
 
 PRODUCT_SYSTEM_NAME := sweet
 PRODUCT_SYSTEM_DEVICE := sweet
